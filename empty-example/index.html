@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cubic Cascade</title>
+  <style>
+    body {
+      padding: 0; margin: 0;
+      background-color: #0d0d1a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: 'Courier New', monospace;
+      overflow: hidden;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    #game-container {
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow:
+        0 0 80px rgba(30, 144, 255, 0.25),
+        0 0 40px rgba(255, 71, 87, 0.15),
+        0 20px 60px rgba(0, 0, 0, 0.6);
+      border: 2px solid rgba(30, 144, 255, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <main id="game-container"></main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
